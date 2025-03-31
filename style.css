@@ -1,1 +1,178 @@
 /* Add your CSS here */
+
+/* General styles for headings */
+h1 {
+  font-size: 2.5rem; /* Larger font size for the main heading */
+  font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  font-weight: bold; /* Apply bold weight for headings */
+}
+
+h2 {
+  font-size: 2rem; /* Larger font size for subheadings */
+  font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  font-weight: bold; /* Apply bold weight for headings */
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  font-weight: bold; /* Apply bold weight for headings */
+}
+
+p {
+  font-size: 1.1rem; /* Slightly larger font size for body text */
+}
+
+/* Hero section styles */
+header {
+  text-align: center;
+  padding: 20px; /* Add padding to the hero section */
+  background: linear-gradient(to bottom, #e0f7fa, hsl(216, 55%, 31%)); /* Soft gradient background */
+}
+
+/* Hero section button (if applicable) */
+header button {
+  font-size: 1.2rem; /* Larger font size for the button text */
+  padding: 0.8rem 1.5rem; /* Increase padding for a larger button */
+}
+
+/* Main content styles */
+body {
+  font-family: 'Open Sans', sans-serif; /* Use Open Sans for body text */
+  background-color: #f9f9f9; /* Light background color */
+  color: #10bed1; /* Neutral text color */
+  line-height: 1.6; /* Improve readability */
+  max-width: 1200px; /* Limit the width of the main content */
+  margin: 0 auto; /* Center the content on the page */
+  padding: 0 20px; /* Add some padding for smaller screens */
+}
+
+main {
+  max-width: 800px; /* Limit the width of the main content */
+  margin: 0 auto; /* Center the content on the page */
+  padding: 0 20px; /* Add some padding for smaller screens */
+}
+
+/* Navigation bar styles */
+nav ul {
+  display: flex; /* Use flexbox to arrange links in a row */
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 10px 0; /* Add some margin for spacing */
+}
+
+nav li {
+  margin-right: 15px; /* Add spacing between links */
+}
+
+nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: hsl(216, 17%, 94%); /* Use a color that matches the theme */
+  font-size: 1.1rem; /* Slightly larger font size for readability */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Add underline on hover for better UX */
+}
+
+/* Featured Article Styles */
+#featured-article {
+  background-color: #ffffff; /* White background for contrast */
+  border: 1px solid #ddd; /* Subtle border */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#featured-article h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+#featured-article .metadata {
+  display: flex; /* Arrange metadata in a row */
+  gap: 10px; /* Add spacing between items */
+  font-size: 0.9rem;
+  color: #666; /* Subtle text color */
+  margin-bottom: 10px;
+}
+
+#featured-article a {
+  color: #007acc; /* Link color */
+  text-decoration: none;
+}
+
+#featured-article a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Regular Articles Styles */
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between articles */
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.articles article {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.articles h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  font-weight: bold; /* Apply bold weight for headings */
+}
+
+.articles .metadata {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.articles a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.articles a:hover {
+  text-decoration: underline;
+}
+
+/* More Articles Section */
+#more-articles {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+}
+
+#more-articles h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  font-weight: bold; /* Apply bold weight for headings */
+}
+
+#more-articles ul {
+  list-style: none;
+  padding: 0;
+}
+
+#more-articles li {
+  margin-bottom: 5px;
+}
+
+#more-articles a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+#more-articles a:hover {
+  text-decoration: underline;
+}
